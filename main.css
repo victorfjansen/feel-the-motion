@@ -10,7 +10,7 @@ html,
 body
 {
     height: 100vh;
-    font-family: 'Poppins';
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background: rgb(24,24,24);
     scroll-behavior: smooth;
 }
@@ -53,6 +53,18 @@ body{
     color: white;
 }
 
+@media (max-width: 920px) {
+    .container h1{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .container h1{
+        font-size: 2rem;
+    }
+}
+
 /* HEADER */
 
 header {
@@ -62,6 +74,14 @@ header {
     transform: rotate(-90deg);
     top: 320px;
     left: -30px;
+}
+
+@media (max-width: 710px) {
+    header{
+        transform: rotate(0deg);
+        top: 30px;
+        left: 0px;
+    }
 }
 
 ul.items a{
@@ -80,31 +100,6 @@ ul.items a{
 
 
 
-/* section - sobre -------------------------------------------------------------------------------*/
-
-.section-sobre{
-    max-width: 50rem;
-    margin: 0 auto;
-    margin-top: 5em;
-    display: grid;
-    grid-template-columns: 23em 23em;
-}
-.text1{
-    max-width: 25em;
-    color: white;
-}
-
-.img1{
-    width: 100%;
-}
-
-.img1 img {
-    width: 100%;
-}
-
-
-
-section.section-sobre {height: 100vh;}
 
 
 
