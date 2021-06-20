@@ -1,0 +1,112 @@
+/* RESET */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'Poppins';
+    background: rgb(24,24,24);
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* WEBGL => BOLA GIRATÓRIA */
+
+.webgl
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+    mix-blend-mode: exclusion;
+    
+}
+
+/* TEXTO FEEL THE MOTION */
+
+.container{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* HEADER */
+
+header {
+    position: fixed;
+    color: white;
+    z-index: 100;
+    transform: rotate(-90deg);
+    top: 320px;
+    left: -30px;
+}
+
+ul.items a{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white; 
+}
+
+.items {
+    display: flex;    
+}
+
+.items li {
+    padding: 20px;
+}
+
+
+
+/* section - sobre -------------------------------------------------------------------------------*/
+
+.section-sobre{
+    max-width: 50rem;
+    margin: 0 auto;
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: 23em 23em;
+}
+.text1{
+    max-width: 25em;
+    color: white;
+}
+
+.img1{
+    width: 100%;
+}
+
+.img1 img {
+    width: 100%;
+}
+
+
+
+section.section-sobre {height: 100vh;}
+
+
+
+
+/*# sourceMappingURL=main.css.map*/
